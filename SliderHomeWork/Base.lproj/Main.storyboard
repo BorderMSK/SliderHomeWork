@@ -86,7 +86,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="B1h-d2-CJ9"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="388" id="xMx-Ee-qG7"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="xMx-Ee-qG7"/>
                                 </constraints>
                             </view>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="CWr-Un-7jc">
@@ -113,15 +113,15 @@
                             <constraint firstItem="Zn5-Zq-EFT" firstAttribute="top" secondItem="T40-ys-t3n" secondAttribute="bottom" constant="17" id="6ni-xg-wvU"/>
                             <constraint firstItem="T40-ys-t3n" firstAttribute="leading" secondItem="Vrn-zy-LMb" secondAttribute="trailing" constant="38.000000000000028" id="9bc-i1-d66"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zn5-Zq-EFT" secondAttribute="trailing" constant="20" id="AT8-5F-GLD"/>
-                            <constraint firstItem="qaw-GO-cea" firstAttribute="leading" secondItem="Vrn-zy-LMb" secondAttribute="trailing" constant="38.000000000000028" id="L3o-lu-auu"/>
+                            <constraint firstItem="qaw-GO-cea" firstAttribute="width" secondItem="Zn5-Zq-EFT" secondAttribute="width" id="Qwd-jo-WiJ"/>
                             <constraint firstItem="zrO-t6-2HZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ScO-D4-rLI"/>
                             <constraint firstItem="Vrn-zy-LMb" firstAttribute="top" secondItem="zrO-t6-2HZ" secondAttribute="bottom" constant="50" id="ShG-3Q-5QG"/>
                             <constraint firstItem="CWr-Un-7jc" firstAttribute="top" secondItem="qaw-GO-cea" secondAttribute="bottom" constant="20" id="TM9-d4-r6d"/>
                             <constraint firstItem="qaw-GO-cea" firstAttribute="top" secondItem="Zn5-Zq-EFT" secondAttribute="bottom" constant="19" id="Wye-VP-7XY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zrO-t6-2HZ" secondAttribute="trailing" constant="20" id="dI1-a5-fge"/>
-                            <constraint firstItem="Zn5-Zq-EFT" firstAttribute="leading" secondItem="Vrn-zy-LMb" secondAttribute="trailing" constant="38.000000000000028" id="dPh-vG-uXK"/>
                             <constraint firstItem="UEJ-Fc-U0E" firstAttribute="top" secondItem="zrO-t6-2HZ" secondAttribute="bottom" constant="50" id="gAL-pG-jKj"/>
                             <constraint firstItem="T40-ys-t3n" firstAttribute="top" secondItem="zrO-t6-2HZ" secondAttribute="bottom" constant="50" id="hMg-MV-YBP"/>
+                            <constraint firstItem="Zn5-Zq-EFT" firstAttribute="width" secondItem="T40-ys-t3n" secondAttribute="width" id="kRm-L3-F1T"/>
                             <constraint firstItem="CWr-Un-7jc" firstAttribute="width" secondItem="qaw-GO-cea" secondAttribute="width" multiplier="1.00141" id="nVw-Fu-lWh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T40-ys-t3n" secondAttribute="trailing" constant="20" id="nac-Sw-xel"/>
                             <constraint firstItem="UEJ-Fc-U0E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="osa-ny-rBm"/>
