@@ -8,13 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-
+    
+    
     @IBOutlet weak var mixColor: UIView!
     @IBOutlet weak var redValue: UILabel!
+    
     @IBOutlet weak var greenValue: UILabel!
     @IBOutlet weak var blueValue: UILabel!
     @IBOutlet weak var redSlider: UISlider!
+    
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     @IBOutlet weak var alphaSlider: UISlider!
@@ -31,7 +33,7 @@ class ViewController: UIViewController {
         
         mixColor.layer.cornerRadius = 15
     }
-
+    
     @IBAction func actionSlider(_ sender: Any) {
         
         redColor = CGFloat(redSlider.value)
@@ -52,6 +54,6 @@ class ViewController: UIViewController {
         mixColor.alpha = alphaColor
     }
     
-
+    
 }
 
