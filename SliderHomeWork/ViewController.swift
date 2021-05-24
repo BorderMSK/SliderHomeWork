@@ -20,14 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     @IBOutlet weak var alphaSlider: UISlider!
-    
-    var finalColor: UIColor?
-    
-    var redColor: CGFloat = 0.0
-    var greenColor: CGFloat = 0.0
-    var blueColor: CGFloat = 0.0
-    var alphaColor: CGFloat = 0.0
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -36,21 +29,21 @@ class ViewController: UIViewController {
     
     @IBAction func actionSlider(_ sender: Any) {
         
-        redColor = CGFloat(redSlider.value)
-        greenColor = CGFloat(greenSlider.value)
-        blueColor = CGFloat(blueSlider.value)
+        let redColor = CGFloat(redSlider.value)
+        let greenColor = CGFloat(greenSlider.value)
+        let blueColor = CGFloat(blueSlider.value)
         
         redValue.text = String(format: "%.2f", redSlider.value)
         greenValue.text = String(format: "%.2f", greenSlider.value)
         blueValue.text = String(format: "%.2f", blueSlider.value)
         
-        finalColor = UIColor(red: redColor, green: greenColor, blue: blueColor, alpha: 1.0)
+       let finalColor = UIColor(red: redColor, green: greenColor, blue: blueColor, alpha: 1.0)
         
         mixColor.backgroundColor = finalColor
     }
     
     @IBAction func alphaAction(_ sender: Any) {
-        alphaColor = CGFloat(alphaSlider.value)
+       let alphaColor = CGFloat(alphaSlider.value)
         mixColor.alpha = alphaColor
     }
 }
