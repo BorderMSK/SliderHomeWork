@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     @IBOutlet weak var alphaSlider: UISlider!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -37,13 +37,14 @@ class ViewController: UIViewController {
         greenValue.text = String(format: "%.2f", greenSlider.value)
         blueValue.text = String(format: "%.2f", blueSlider.value)
         
-       let finalColor = UIColor(red: redColor, green: greenColor, blue: blueColor, alpha: 1.0)
+        let finalColor = UIColor(red: redColor, green: greenColor, blue: blueColor, alpha: 1.0)
         
         mixColor.backgroundColor = finalColor
     }
     
     @IBAction func alphaAction(_ sender: Any) {
-       let alphaColor = CGFloat(alphaSlider.value)
+        
+        let alphaColor = CGFloat(alphaSlider.value)
         mixColor.alpha = alphaColor
     }
 }
